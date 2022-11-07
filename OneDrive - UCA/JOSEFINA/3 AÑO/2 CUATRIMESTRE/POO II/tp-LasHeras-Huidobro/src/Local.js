@@ -2,11 +2,9 @@ const Paquete=require('../src/Paquete.js');
 
 function Local(nombre){
     this.nombre=nombre;
-    this.proceso=[];
 
     this.generarPaquete=function(){
         var paquete=new Paquete();
-        this.proceso[0]=paquete;
         return paquete;
     }
 }
