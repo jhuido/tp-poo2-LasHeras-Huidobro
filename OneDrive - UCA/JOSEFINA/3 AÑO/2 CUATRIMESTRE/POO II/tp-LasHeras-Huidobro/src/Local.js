@@ -6,7 +6,7 @@ function Local(nombre){
 
     this.generarPaquete=function(){
         var paquete=new Paquete();
-        proceso[0]=paquete;
+        this.proceso[0]=paquete;
         return paquete;
     }
 }
