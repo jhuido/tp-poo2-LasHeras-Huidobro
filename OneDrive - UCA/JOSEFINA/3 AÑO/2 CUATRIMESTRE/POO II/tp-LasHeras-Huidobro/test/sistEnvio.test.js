@@ -10,3 +10,9 @@ test("Local genere Paquete",()=>{
     var paquete=local1.generarPaquete();
     expect(paquete.tiempo).toBe(0);
 })
+
+test("Ubicacion del paquete",()=>{
+    var local1=new Local("Local");
+    var paquete=local1.generarPaquete();
+    expect(paquete.ubicacionActual).toBe("Cola de salida");
+})
