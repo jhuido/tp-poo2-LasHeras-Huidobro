@@ -8,5 +8,5 @@ test("Crear Local",()=>{
 test("Local genere Paquete",()=>{
     var local1=new Local("Local");
     var paquete=local1.generarPaquete();
-    expect(paquete.ubicacion).toBe("Local");
+    expect(paquete.tiempo).toBe(0);
 })

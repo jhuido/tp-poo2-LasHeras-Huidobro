@@ -1,5 +1,5 @@
-function Paquete(local){
-    this.ubicacion=local;
+function Paquete(){
+    this.tiempo=0;
 }
 
 module.exports=Paquete;
